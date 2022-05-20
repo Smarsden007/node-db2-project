@@ -1,5 +1,5 @@
 const Car = require('./cars-model')
-const vin = require('checkVinNumberValid')
+
 
 const checkCarId = async (req, res, next) => {
   try{
